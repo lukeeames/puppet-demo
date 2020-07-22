@@ -5,6 +5,7 @@ node 'ip-172-31-43-5.ap-southeast-2.compute.internal' {
   file {'/root/README':
     ensure => file,
     content => $fqdn,
+  }
 }
 
 node /^web/ {

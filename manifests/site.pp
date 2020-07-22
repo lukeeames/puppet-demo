@@ -1,6 +1,6 @@
 node default {
 }
-node 'ip-172-31-43-5.ap-southeast-2.compute.internal' {
+node 'localhost.localdomain' {
   include role::master_server
 }
 
